@@ -3,6 +3,7 @@ import "./globals.css";
 import { SITE_NAME, SITE_URL, BUSINESS_WHATSAPP } from "../lib/seo";
 import Link from "next/link";
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next"
 
 const inter = Inter({
   subsets: ["latin"],
